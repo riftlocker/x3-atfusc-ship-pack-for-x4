@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+	<add sel="//ships">
+		  <ship id="mmbs_solid" group="mmbs_solid_group">
+			<category tags="[miner, solid, mission]" faction="[terran, pioneers]" size="ship_l"/>
+			<pilot>
+				<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="minerals"/>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		  </ship>
+		  
+		 <ship id="mmbs_liquid" group="mmbs_liquid_group">
+			<category tags="[miner, liquid, mission]" faction="[terran]" size="ship_l"/>
+			<pilot>
+				<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="gases"/>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		 </ship>
+	</add>
+</diff>

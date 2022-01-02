@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<add sel="//cue[@name='iseeu0_cheat_set_ship']/actions">
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_xl_tyr_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_l_skirnir_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_xl_odin_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_usc_xl_kyoto_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_usc_xl_mobileminingship_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_xl_woden_macro" />
+</add>
+</diff>

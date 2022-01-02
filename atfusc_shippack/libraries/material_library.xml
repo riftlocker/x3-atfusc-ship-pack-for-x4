@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/materiallibrary" pos="prepend">
+		<collection name="atfusc">
+			<material name="metal_argon_trims_09" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_trims_09_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_trims_09_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_trims_09_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_trims_09_light"/>
+				</properties>
+			</material>
+			<material name="metal_argon_lattice_grid" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_lattice_grid_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_lattice_grid_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_lattice_grid_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_lattice_grid_light"/>
+				</properties>
+			</material>
+			<material name="metal_argon_exhaust_source_02" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_exhaust_trims_02_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_exhaust_trims_02_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_exhaust_trims_02_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_exhaust_trims_02_light"/>
+				</properties>
+			</material>
+			<material name="metal_argon_vent" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_vent_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_vent_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_vent_bump"/>
+				</properties>
+			</material>
+			<material name="metal_argon_apartments_labs" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_apartments_labs_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_apartments_labs_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_apartments_labs_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\metal_argon_apartments_labs_light"/>
+				</properties>
+			</material>
+			<material name="terran_alphasheet" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_alphasheet_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_alphasheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\none_black"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_alphasheet_light"/>
+				</properties>
+			</material>
+			<material name="terran_platesheet_dark" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_dark_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.3" />
+					<property type="Float" name="Metallness" 		value="0.25" />
+				</properties>
+			</material>
+			<material name="terran_platesheet_red" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_red_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.3" />
+					<property type="Float" name="Metallness" 		value="0.25" />
+				</properties>
+			</material>
+			<material name="terran_platesheet_white" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_white_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_platesheet_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.3" />
+					<property type="Float" name="Metallness" 		value="0.25" />
+				</properties>
+			</material>
+			<material name="terran_techsheet" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_techsheet_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_techsheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_techsheet_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_techsheet_light"/>
+				</properties>
+			</material>
+			<material name="terran_windowsheet" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_windowsheet_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_windowsheet_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\terran_windowsheet_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\terran_techsheet_light"/>
+					<property type="Float" name="color_glowStr" 	value="1.05" />
+				</properties>
+			</material>
+			<material name="agi_large_01" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_large_01_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\none_white"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\none_normal"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_large_01_light"/>
+					<!--<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_large_01_light"/>!-->
+					<!--<property type="Float" name="color_glowStr" value="1" />!-->
+				</properties>
+			</material>
+			<material name="agi_m0a" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+			<material name="agi_m0b" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+			<material name="agi_m0c" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+			<material name="unique_terran_large_01" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_large_01_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2a_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2a_bump"/>
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_large_01_light"/>
+				</properties>
+			</material>
+			<material name="unique_terran_m2a" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2a_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2a_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2a_bump"/>
+					<property type="Float" name="normalStr" 		value="0.25" />
+					<property type="Float" name="Smoothness" 		value="0.5" />
+					<property type="Float" name="Metallness" 		value="1" />
+					<property type="Float" name="AnisoX" 			value="1.0" />
+					<property type="Float" name="AnisoY" 			value="1.0" />
+				</properties>
+			</material>
+			<material name="unique_terran_m2b" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2b_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2b_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2b_bump"/>
+					<property type="Float" name="normalStr" 		value="0.25" />
+					<property type="Float" name="Smoothness" 		value="0.5" />
+					<property type="Float" name="Metallness" 		value="1" />
+					<property type="Float" name="AnisoX" 			value="1.0" />
+					<property type="Float" name="AnisoY" 			value="1.0" />
+				</properties>
+			</material>
+			<material name="unique_terran_m2c" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2c_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2b_bump"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_m2b_bump"/>
+					<property type="Float" name="normalStr" 		value="0.25" />
+					<property type="Float" name="Smoothness" 		value="0.5" />
+					<property type="Float" name="Metallness" 		value="1" />
+					<property type="Float" name="AnisoX"			value="1.0" />
+					<property type="Float" name="AnisoY" 			value="1.0" />
+				</properties>
+			</material>
+			<material name="generic_p1_hullpattern_terran" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				 <properties>
+					<property type="BitMap" name="diffuse_map" value="assets\textures\generic\generic_p1_hullpattern_02_diff" />
+					<property type="BitMap" name="normal_map" value="assets\textures\generic\generic_p1_hullpattern_02_normal" />
+					<property type="Float" name="diffuse_detailStr" value="1.0" />
+					<property type="Float" name="diffuse_paintStr" value="1.0" />
+					<property type="Float" name="diffuseStr" value="1.0" />
+					<property type="Float" name="diffuse_detailStr" value="1.0" />
+					<property type="Float" name="diffuse_paintStr" value="1.0" />
+					<property type="Float" name="normalStr" value="1.0" />
+					<property type="Float" name="normal_detail_tiling" value="5.0" />
+					<property type="Float" name="normal_detail_tiling_v" value="5.0" />
+					<property type="Float" name="normal_detailStr" value="0.1" />
+					<property type="Float" name="color_glowStr" value="1.0" />
+					<property type="Float" name="environmentStr" value="1.0" />
+					<property type="Float" name="Smoothness" value="0.5" />
+					<property type="Float" name="Metallness" value="1" />
+					<property type="Float" name="AnisoX" value="0.5" />
+					<property type="Float" name="AnisoY" value="0.5" />
+				  </properties>
+			</material>
+		</collection>	
+		
+		
+		<collection name="atfusc2"> 
+			<material name="agi_large_01" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_large_01_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\none_white"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\none_normal"/>
+					<!--<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_large_01_light"/>!-->
+					<property type="BitMap" name="color_glow_map" 	value="extensions\atfusc_shippack\assets\textures\terran\unique_terran_large_01_light"/>
+					<property type="Float" name="color_glowStr" value="1.05" />
+				</properties>
+			</material>
+			<material name="agi_m0a" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0a_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+			<material name="agi_m0b" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0b_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+			<material name="agi_m0c" shader="P1_complex_surface" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="diffuse_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_diff"/>
+					<property type="BitMap" name="specular_map" 	value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_spec"/>
+					<property type="BitMap" name="normal_map" 		value="extensions\atfusc_shippack\assets\textures\terran\agi_m0c_bump"/>
+					<property type="Float" name="Smoothness" 		value="0.8" />
+					<property type="Float" name="Metallness" 		value="0.7" />
+				</properties>
+			</material>
+		</collection>	
+	</add>
+</diff>

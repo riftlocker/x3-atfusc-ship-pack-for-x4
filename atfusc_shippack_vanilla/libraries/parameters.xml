@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/parameters/docking" pos="prepend">
+	 <dock tags="dock_xxl" timeout="900" maxdistance="25000" unassigndistance="100" retrievalsafety="10" playerretrievalsafety="20">
+      <dockpath zdistance="10000" />
+      <farguidance material="test.dockguidance_light" amount="20" duration="1.5" scale="0.02" starttangent="1.0" startdistance="2.0" maxdistance="10000" dx="150" dz="250" fadein="2.0" />
+      <nearguidance renderdistance="1.2906321">
+        <background material="p1.gui_dock_background" width="1.5" height="1.5">
+          <offset y="0.2" z="2.0" />
+        </background>
+        <rotation>
+          <uturn material="p1.gui_dock_ship_rot_uturn" width="0.05" height="0.05" frequency="0.75">
+            <startcolor r="255" g="80" b="0" a="255" />
+            <endcolor r="255" g="80" b="0" a="0" />
+          </uturn>
+          <direction material="p1.gui_dock_ship_rot_horizontal" width="0.04" height="0.04" minangle="5" minoffset="2.0" maxoffset="5.0" frequency="0.75">
+            <color r="255" g="80" b="0" a="255" />
+          </direction>
+          <target material="p1.gui_dock_ship_rot_target" width="0.017" height="0.017">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </target>
+          <currentroll material="p1.gui_dock_ship_roll_current" width="0.25" height="0.0625">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </currentroll>
+          <targetroll material="p1.gui_dock_ship_roll_target" width="0.25" height="0.0625">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </targetroll>
+        </rotation>
+        <position outsidealpha="0.1">
+          <offset y="-0.2" z="2" />
+          <scale x="0.0005" y="0.001" z="0.001" />
+          <min x="-1000" y="-300" z="-1000" />
+          <max x="1000" y="300" z="1000" />
+          <base material="p1.gui_dock_frame_ground" width="0.75" height="1.5">
+            <goodcolor r="255" g="255" b="255" a="255" />
+            <badcolor r="255" g="255" b="255" a="255" />
+          </base>
+          <horizontal material="p1.gui_dock_pos_horizontal" width="0.75" height="0.6">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </horizontal>
+          <vertical material="p1.gui_dock_pos_vertical" width="0.1" height="0.7">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </vertical>
+          <currentpos material="p1.gui_dock_ship_pos_current" width="0.08" height="0.08" linewidth="0.02">
+            <goodcolor r="255" g="255" b="255" a="255" />
+            <badcolor r="127" g="197" b="255" a="255" />
+          </currentpos>
+          <projectedpos material="p1.gui_dock_ship_pos_projected" width="0.08" height="0.08" align="false">
+            <goodcolor r="96" g="255" b="64" a="255" />
+            <badcolor r="255" g="32" b="50" a="255" />
+          </projectedpos>
+        </position>
+      </nearguidance>
+      <maxoffsets>
+        <maxoffset>
+          <position x="1" y="1" z="1" />
+          <rotation pitch="2" yaw="2" roll="2" />
+        </maxoffset>
+        <maxoffset software="software_dockmk1">
+          <position x="100" y="100" z="100" />
+          <rotation pitch="5" yaw="5" roll="5" />
+        </maxoffset>
+        <maxoffset software="software_dockmk2">
+          <position x="500" y="500" z="500" />
+          <rotation pitch="89" yaw="179" roll="179" />
+        </maxoffset>
+      </maxoffsets>
+      <landing>
+        <entry traffic="normal" duration="20.0">
+          <slowdown duration="10.0" />
+          <align duration="5.0" />
+        </entry>
+        <entry traffic="heavy" duration="20.0">
+          <slowdown duration="5.0" />
+          <align duration="5.0" />
+        </entry>
+        <entry traffic="gridlock" duration="20.0">
+          <slowdown duration="5.0" />
+          <align duration="5.0" />
+        </entry>
+      </landing>
+    </dock>
+	</add>
+	<add sel="/parameters/enginedetail" pos="prepend">
+      <entry size="dock_xxl" amount="5" range="20000" />
+  </add>
+</diff>

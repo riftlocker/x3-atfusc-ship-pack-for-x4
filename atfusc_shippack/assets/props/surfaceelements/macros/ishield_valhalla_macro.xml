@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_valhalla_macro" class="shieldgenerator">
+    <component ref="ishield_valhalla" />
+    <properties>
+      <identification name="{444751,4}" />
+      <recharge max="3500000" rate="2500" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

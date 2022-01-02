@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+   <add sel="/wares">
+      <ware id="atf_tyr_ware" name="{444750,2}" description="{444750,3}" group="ships_terran" transport="ship" volume="1" tags="blueprintsaleonly ship">
+         <price min="22405657" average="27503715" max="30023715" />
+         <production time="1390" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="1500" />
+               <ware ware="energycells" amount="62400" />
+               <ware ware="metallicmicrolattice" amount="3200" />
+            </primary>
+         </production>
+         <component ref="ship_atf_xl_tyr_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_tyr" name="{444750,4}" description="{444750,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_tyr_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="atf_valhalla_ware" name="{444751,2}" description="{444751,3}" group="ships_terran" transport="ship" volume="1" tags="blueprintsaleonly ship">
+         <price min="558593641" average="564771115" max="569357948" />
+         <production time="3600" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="14750" />
+               <ware ware="energycells" amount="225000" />
+               <ware ware="metallicmicrolattice" amount="23200" />
+               <ware ware="siliconcarbide" amount="18100" />
+            </primary>
+         </production>
+         <component ref="ship_atf_xl_valhalla_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="atf_valhalla_flagship_ware" name="{444751,2}" description="{444751,3}" group="ships_terran" transport="ship" volume="1" tags="noplayerbuild noplayerblueprint ship">
+         <price min="552405657" average="564773715" max="569357948" />
+         <production time="3600" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="14750" />
+               <ware ware="energycells" amount="225000" />
+               <ware ware="metallicmicrolattice" amount="23200" />
+               <ware ware="siliconcarbide" amount="18100" />
+            </primary>
+         </production>
+         <component ref="ship_atf_xl_valhalla_flagship_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_valhalla" name="{444751,4}" description="{444751,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_valhalla_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="valhalla_dock_ware" name="{444751,5}" description="{444751,5}" transport="container" volume="1" tags="module noplayerbuild noplayerblueprint">
+         <price min="197485714" average="267186553" max="232336133" />
+         <production time="1954" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="2961" />
+               <ware ware="energycells" amount="21897" />
+               <ware ware="siliconcarbide" amount="6093" />
+            </primary>
+         </production>
+         <research time="45">
+            <research>
+               <ware ware="research_module_build" />
+            </research>
+         </research>
+         <component ref="buildmodule_atf_valhalla_dock_macro" amount="1" />
+         <restriction licence="station_equip_lxl" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="atf_magni_ware" name="ATF Magni M/AM Drive" description="{444751,6}" group="engines" transport="equipment" volume="1" tags="engine equipment valhalla">
+         <price min="624061" average="671179" max="718297" />
+         <production time="30" amount="1" method="default" name="{20206,101}">
+            <primary>
+               <ware ware="energycells" amount="3000" />
+               <ware ware="metallicmicrolattice" amount="1527" />
+               <ware ware="siliconcarbide" amount="2005" />
+            </primary>
+         </production>
+         <component ref="engine_atf_xl_magni_macro" amount="1" />
+         <restriction licence="generaluseequipment" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="usc_kyoto_ware" name="{444752,2}" description="{444752,3}" group="ships_terran" transport="ship" volume="1" tags="blueprintsaleonly ship">
+         <price min="321000351" average="321000351" max="321000351" />
+         <production time="2700" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="10200" />
+               <ware ware="energycells" amount="166000" />
+               <ware ware="metallicmicrolattice" amount="14200" />
+               <ware ware="siliconcarbide" amount="11500" />
+            </primary>
+         </production>
+         <component ref="ship_usc_xl_kyoto_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_kyoto" name="{444752,4}" description="{444752,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_kyoto_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="atf_skirnir_ware" name="{444754,2}" description="{444754,3}" group="ships_terran" transport="ship" volume="1" tags="blueprintsaleonly ship">
+         <price min="38750479" average="41572941" max="48309471" />
+         <production time="520" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="512" />
+               <ware ware="energycells" amount="4470" />
+               <ware ware="metallicmicrolattice" amount="1006" />
+            </primary>
+         </production>
+         <component ref="ship_atf_l_skirnir_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_skirnir" name="{444754,4}" description="{444754,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_skirnir_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="missile_laevateinn_ware" name="{444754,7}" description="{444754,8}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+         <price min="77591" average="109437" max="117495" />
+         <production time="2" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="energycells" amount="20" />
+               <ware ware="metallicmicrolattice" amount="12" />
+               <ware ware="siliconcarbide" amount="11" />
+               <ware ware="computronicsubstrate" amount="7" />
+            </primary>
+         </production>
+         <component ref="missile_laevateinn_macro" amount="1" />
+         <restriction licence="capitalequipment" />
+         <container ref="sm_gen_pickup_equipment_01_macro" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="atf_launcher_ware" name="{444754,6}" description="{444754,6}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
+         <price min="311451" average="317593" max="319659" />
+         <production time="10" amount="1" method="default" name="{6699,1103}">
+            <primary>
+               <ware ware="energycells" amount="100" />
+               <ware ware="metallicmicrolattice" amount="101" />
+               <ware ware="siliconcarbide" amount="14" />
+            </primary>
+         </production>
+         <component ref="turret_atf_missilesystem_macro" amount="1" />
+         <restriction licence="capitalequipment" />
+         <use threshold="0" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="atf_odin_ware" name="{444756,2}" description="{444756,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+         <price min="37836971" average="45174836" max="48888794" />
+         <production time="1080" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="735" />
+               <ware ware="energycells" amount="20477" />
+               <ware ware="metallicmicrolattice" amount="1564" />
+            </primary>
+         </production>
+         <component ref="ship_atf_xl_odin_macro" amount="1" />
+         <restriction licence="capitalship" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_odin" name="{444756,4}" description="{444756,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_odin_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="usc_mmbs_ware" name="{444757,1}" description="{444757,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+         <price min="21308941" average="27673971" max="27958204" />
+         <production time="580" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="561" />
+               <ware ware="energycells" amount="16686" />
+               <ware ware="metallicmicrolattice" amount="1254" />
+            </primary>
+         </production>
+         <component ref="ship_usc_xl_mobileminingship_macro" amount="1" />
+         <restriction licence="generaluseship" />
+         <owner faction="terran" />
+         <owner faction="pioneers" />
+      </ware>
+      <ware id="ishield_mmbs" name="{444757,4}" description="{444757,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_mmbs_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+      <ware id="atf_woden_ware" name="{444758,2}" description="{444758,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+         <price min="41489125" average="47376811" max="50981815" />
+         <production time="1080" amount="1" method="default" name="{20206,901}">
+            <primary>
+               <ware ware="computronicsubstrate" amount="778" />
+               <ware ware="energycells" amount="22122" />
+               <ware ware="metallicmicrolattice" amount="1821" />
+            </primary>
+         </production>
+         <component ref="ship_atf_xl_woden_macro" amount="1" />
+         <restriction licence="capitalequipment" />
+         <owner faction="terran" />
+      </ware>
+      <ware id="ishield_woden" name="{444758,4}" description="{444758,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_woden_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
+   </add>
+</diff>

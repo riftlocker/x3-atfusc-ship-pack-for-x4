@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+   <component name="dockarea_atf_xl_woden_36s" class="dockarea">
+      <source geometry="extensions\atfusc_shippack_vanilla\assets\structures\dock\\dockarea_usc_xl_kyoto_36s_data" />
+      <connections>
+         <connection name="container" tags="contents" value="0" />
+         <connection name="position" tags="position" value="1" />
+         <connection name="space" tags="dockarea">
+            <offset />
+         </connection>
+         <connection name="Connection01" tags="part noshadowcaster dockarea component platformcollision collisiononly  ">
+            <parts>
+               <part name="part_main" wreck="part_main_wreck">
+                  <lods>
+                     <lod index="0">
+                        <materials>
+                           <material id="1" ref="generic.generic_p1_hullpattern" />
+                        </materials>
+                     </lod>
+                  </lods>
+                  <size>
+                     <max x="60" y="1.63336" z="270.064" />
+                     <center x="-1.14441e-005" y="1.36667" z="-0.408905" />
+                  </size>
+               </part>
+            </parts>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro4" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="39.9999" y="0.0" z="-202.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro1" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="39.9999" y="0.0" z="-247.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro5" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.0006000000000000001" y="0.0" z="-202.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro2" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.0005" y="0.0" z="-247.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro8" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.00030000000000000003" y="0.0" z="-157.94889999999998" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro7" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="-157.94889999999998" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro3" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.000099999999996" y="0.0" z="-247.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro6" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.000099999999996" y="0.0" z="-202.9488" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro9" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="-157.94889999999998" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro13" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="-67.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro10" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="-112.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro16" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="-22.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro15" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="-67.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro12" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="-112.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro18" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="-22.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro17" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="9.999999999999999e-05" y="0.0" z="-22.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro11" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.00030000000000000003" y="0.0" z="-112.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro14" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="0.0" y="0.0" z="-67.9489" />
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro22" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="39.9999" y="0.0" z="67.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro19" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="39.9999" y="0.0" z="22.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro23" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.0006000000000000001" y="0.0" z="67.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro20" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.0005" y="0.0" z="22.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro26" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.00030000000000000003" y="0.0" z="112.05510000000001" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro25" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="112.05510000000001" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro21" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.000099999999996" y="0.0" z="22.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro24" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.000099999999996" y="0.0" z="67.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro27" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="112.05510000000001" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro31" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="202.05519999999999" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro28" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="157.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro34" group="group_01" tags="dockingbay">
+            <offset>
+               <position x="40.0" y="0.0" z="247.0552" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro33" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="202.05519999999999" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro30" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="157.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro36" group="group_03" tags="dockingbay">
+            <offset>
+               <position x="-40.0" y="0.0" z="247.0552" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro35" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="9.999999999999999e-05" y="0.0" z="247.0552" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro29" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="-0.00030000000000000003" y="0.0" z="157.0551" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+         <connection name="ConnectionFor_dockingbay_arg_s_01_macro32" group="group_02" tags="dockingbay">
+            <offset>
+               <position x="0.0" y="0.0" z="202.05519999999999" />
+			   <rotation yaw="180" pitch="0" roll="0"/>
+            </offset>
+         </connection>
+      </connections>
+   </component>
+</components>

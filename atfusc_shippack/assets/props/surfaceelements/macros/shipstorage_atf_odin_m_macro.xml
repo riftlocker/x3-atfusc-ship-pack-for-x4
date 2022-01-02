@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="shipstorage_atf_odin_m_macro" class="dockingbay">
+    <component ref="generic_dockingbay" />
+    <properties>
+      <identification unique="0" />
+      <dock capacity="16" external="0" storage="1" />
+      <room walkable="0" />
+      <docksize tags="dock_m" />
+    </properties>
+  </macro>
+</macros>

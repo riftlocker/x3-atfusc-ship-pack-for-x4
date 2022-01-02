@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_mmbs_macro" class="shieldgenerator">
+    <component ref="ishield_mmbs" />
+    <properties>
+      <identification name="{444757,4}" />
+      <recharge max="120500" rate="2425" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

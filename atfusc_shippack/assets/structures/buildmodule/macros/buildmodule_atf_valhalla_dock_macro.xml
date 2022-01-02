@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="buildmodule_atf_valhalla_dock_macro" class="buildmodule">
+    <component ref="buildmodule_atf_valhalla_dock" />
+    <properties>
+      <identification name="{444751,5}" shortname="{444751,5}" makerrace="terran" description="{444751,5}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+          <set ref="piratebase" />
+        </sets>
+      </build>
+      <explosiondamage value="100000" />
+      <storage unit="225" />
+      <hull max="2000000" />
+      <secrecy level="3" />
+      <builder classes="ship_xl" optimalprocessorunits="50" />
+      <equip classes="ship_xl" />
+      <supply classes="ship_xl" />
+      <workforce max="2000" />
+    </properties>
+    <connections>
+      <connection ref="connection_dockarea01">
+        <macro ref="dockingbay_gen_xl_inv_macro" connection="con_component01" />
+      </connection>
+      <connection name="buildprocessorconnection_01" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

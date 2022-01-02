@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ws_2627959637" name="X3 ATF/USC Ship Pack (VRO)" description="A collection of the X3 Terran ships I've ported to X4" author="dtaco" version="112" date="2021-12-18" save="false" sync="false" lastupdate="1639774175">
+  <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+</content>

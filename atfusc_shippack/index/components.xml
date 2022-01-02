@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel = "/index">
+		<entry name="ship_atf_l_skirnir" 				value="extensions\atfusc_shippack\assets\units\size_l\ship_atf_l_skirnir" />
+		<entry name="ship_atf_xl_tyr" 					value="extensions\atfusc_shippack\assets\units\size_xl\ship_atf_xl_tyr" />
+		<entry name="ship_atf_xl_valhalla" 				value="extensions\atfusc_shippack\assets\units\size_xl\ship_atf_xl_valhalla" />
+		<entry name="ship_atf_xl_valhalla_flagship" 	value="extensions\atfusc_shippack\assets\units\size_xl\ship_atf_xl_valhalla_flagship" />
+		<entry name="ship_usc_xl_kyoto" 				value="extensions\atfusc_shippack\assets\units\size_xl\ship_usc_xl_kyoto" />
+		<entry name="ship_atf_xl_odin" 					value="extensions\atfusc_shippack\assets\units\size_xl\ship_atf_xl_odin" />
+		<entry name="ship_usc_xl_mobileminingship" 		value="extensions\atfusc_shippack\assets\units\size_xl\ship_usc_xl_mobileminingship" />
+		<entry name="ship_atf_xl_woden" 				value="extensions\atfusc_shippack\assets\units\size_xl\ship_atf_xl_woden" />
+		
+		<entry name="engine_atf_xl_magni" 				value="extensions\atfusc_shippack\assets\props\engines\engine_atf_xl_magni"/>
+		<entry name="ishield_tyr" 						value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_tyr"/>
+		<entry name="ishield_valhalla" 					value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_valhalla"/>
+		<entry name="ishield_kyoto" 					value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_kyoto"/>
+		<entry name="ishield_skirnir" 					value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_skirnir"/>
+		<entry name="ishield_odin" 						value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_odin"/>
+		<entry name="ishield_mmbs" 						value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_mmbs"/>
+		<entry name="ishield_woden" 					value="extensions\atfusc_shippack\assets\props\surfaceelements\ishield_woden"/>
+		<entry name="turret_atf_missilesystem" 			value="extensions\atfusc_shippack\assets\props\weaponsystems\guided\turret_atf_missilesystem"/>
+		
+		<entry name="dockarea_atf_xl_valhalla" 					value="extensions\atfusc_shippack\assets\structures\dock\dockarea_atf_xl_valhalla"/>
+		<entry name="dockingbay_atf_xxl_inv"					value="extensions\atfusc_shippack\assets\structures\dock\dockingbay_atf_xxl_inv"/>
+		<entry name="dockarea_usc_xl_kyoto_s" 					value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_s"/>
+		<entry name="dockarea_usc_xl_kyoto_s_02" 				value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_s_02"/>
+		<entry name="dockarea_usc_xl_kyoto_s_04" 				value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_s_04" />
+		<entry name="dockarea_usc_xl_kyoto_m" 					value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_m"/>
+		<entry name="dockarea_usc_xl_kyoto_5m" 					value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_5m"/>
+		<entry name="dockarea_usc_xl_kyoto_36s" 				value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_kyoto_36s"/>
+		<entry name="dockarea_usc_xl_mobileminingship_s_03" 	value="extensions\atfusc_shippack\assets\structures\dock\dockarea_usc_xl_mobileminingship_s_03"/>
+		<entry name="dockarea_atf_xl_woden_36s" 				value="extensions\atfusc_shippack\assets\structures\dock\dockarea_atf_xl_woden_36s"/>
+		<entry name="pier_kyoto_l" 								value="extensions\atfusc_shippack\assets\structures\dock\pier_kyoto_l"/>
+		<entry name="dockingbay_pier_kyoto_l" 					value="extensions\atfusc_shippack\assets\structures\dock\dockingbay_pier_kyoto_l"/>
+		<entry name="dockarea_atf_xl_odin" 						value="extensions\atfusc_shippack\assets\structures\dock\dockarea_atf_xl_odin" />
+		<entry name="buildmodule_atf_valhalla_dock" 			value="extensions\atfusc_shippack\assets\structures\buildmodule\buildmodule_atf_valhalla_dock"/>
+	</add>
+</diff>

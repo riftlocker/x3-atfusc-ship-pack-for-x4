@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_odin_macro" class="shieldgenerator">
+    <component ref="ishield_odin" />
+    <properties>
+      <identification name="{444756,4}" />
+      <recharge max="500000" rate="2000" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

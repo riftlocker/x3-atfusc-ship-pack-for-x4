@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_atf_missilesystem_macro" class="missileturret">
+    <component ref="turret_atf_missilesystem" />
+    <properties>
+      <identification name="{444754,6}" basename="{444754,6}" shortname="{444754,5}" description="{444754,6}" mk="5" makerrace="terran"/>
+      <ammunition tags="atftorp" />
+      <bullet class="missile_laevateinn_macro" />
+      <rotationspeed max="30" />
+      <reload />
+      <storage />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

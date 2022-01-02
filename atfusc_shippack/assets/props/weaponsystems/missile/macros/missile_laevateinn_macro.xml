@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+<macro name="missile_laevateinn_macro" class="missile">
+<component ref="missile_torpedo_heavy_mk1" />
+<properties>
+<identification name="{444754,7}" basename="{444754,7}" description="{444754,8}" />
+<ammunition value="1" />
+<missile amount="7" barrelamount="3" delay="0" lifetime="100" range="25000" swarm="0" guided="1"  retarget="1" icon="hud_ms_torpedo_heavy_mk1" tags="atftorp"/>
+<explosiondamage value="20000" />
+<reload time="30" />
+<hull max="100" />
+<effects>
+<explosion ref="explosion_missile_aoe_large" />
+<launch ref="muzzle_missile_torpedo" />
+</effects>
+<weapon system="missile_guided" />
+<countermeasure resilience="0.96" />
+<physics mass="8">
+<inertia pitch="15" yaw="15" roll="15" />
+<drag forward="0.18" reverse="16" horizontal="16" vertical="16" pitch="8" yaw="8" roll="8" />
+</physics>
+<!--<lock time="15" range="22000"/>!-->
+</properties>
+<connections>
+<connection ref = "con_engine01">
+<macro ref = "engine_missile_guided_mk1_macro" connection = "ship"/>
+</connection>
+ </connections>
+</macro>
+</macros>

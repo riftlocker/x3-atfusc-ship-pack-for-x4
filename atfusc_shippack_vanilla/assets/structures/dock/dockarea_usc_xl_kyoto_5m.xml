@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockarea_usc_xl_kyoto_5m" class="dockarea">
+		<source geometry="extensions\atfusc_shippack_vanilla\assets\structures\dock\dockarea_usc_xl_kyoto_5m_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights />
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" />
+			<connection name="position" tags="position" value="1" />
+			<connection name="space" tags="dockarea">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part noshadowcaster dockarea component platformcollision collisiononly  ">
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="287.25" y="1.73099" z="92.4566" />
+							<center x="-0.0152283" y="1.26906" z="0.00405121" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_m_01_hightech_macro" tags="dockingbay">
+				<offset />
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_m_01_hightech_macro2" tags="dockingbay">
+				<offset>
+					<position x="229.8" y="0.0" z="-0.0" />
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_m_01_hightech_macro3" tags="dockingbay">
+				<offset>
+					<position x="114.9" y="0.0" z="-0.0" />
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_m_01_hightech_macro4" tags="dockingbay">
+				<offset>
+					<position x="-114.9" y="0.0" z="-0.0" />
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_m_01_hightech_macro5" tags="dockingbay">
+				<offset>
+					<position x="-229.8" y="0.0" z="-0.0" />
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

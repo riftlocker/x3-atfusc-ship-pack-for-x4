@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//groups">
+		<group name = "mmbs_solid_group">
+			<select macro="ship_usc_xl_mobileminingship_macro" weight="20" />
+			<select macro="ship_ter_l_miner_solid_01_a_macro" weight="80"/>
+		</group>
+    </add>
+	
+	<add sel="//groups">
+		<group name = "mmbs_liquid_group">
+			<select macro="ship_usc_xl_mobileminingship_macro" weight="20" />
+			<select macro="ship_ter_l_miner_liquid_01_a_macro" weight="80"/>
+		</group>
+    </add>
+</diff>

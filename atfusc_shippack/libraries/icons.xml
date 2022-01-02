@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <add sel="/icons" pos="prepend">
+		<icon name="engine_atf_xl_magni_macro" texture="extensions\atfusc_shippack\assets\fx\gui\textures\engines\engine_atf_xl_magni_macro.tga" height="256" width="256"></icon>
+		<icon name="turret_atf_missilesystem_macro" texture="extensions\atfusc_shippack\assets\fx\gui\textures\upgrades\turret_atf_missilesystem_macro.tga" height="256" width="256"></icon>
+    </add>
+</diff>

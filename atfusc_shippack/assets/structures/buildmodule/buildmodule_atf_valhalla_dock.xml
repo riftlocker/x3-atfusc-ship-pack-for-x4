@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<components>
+	<component name="buildmodule_atf_valhalla_dock" class="buildmodule">
+		<source geometry="extensions\atfusc_shippack\assets\structures\buildmodule\buildmodule_atf_valhalla_dock_data"/>
+		<layers>
+			<layer>
+				<waypoints>
+					<waypoint name="XU_Waypoint107" tags="typenormal sizeLevel1 dynamicmasstraffic closelink " x="4495.4451" y="-18.7269525" z="2340.24975" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links/>
+					</waypoint>
+					<waypoint name="XU_Waypoint108" tags="typenormal sizeLevel1 dynamicmasstraffic " x="5085.387" y="-18.7269525" z="1750.10805" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint107"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint109" tags="typenormal sizeLevel1 dynamicmasstraffic " x="5085.387" y="412.96707" z="-2940.94845" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint108"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint110" tags="typenormal sizeLevel1 dynamicmasstraffic " x="5600.115" y="412.96707" z="-3455.67105" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint109"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint111" tags="sizeLevel1 typedock start dynamicmasstraffic " x="7219.881" y="412.96707" z="-3455.67105" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint110"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint112" tags="sizeLevel1 typedock end dynamicmasstraffic " x="-7190.73" y="412.23951" z="-3454.5726" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links/>
+					</waypoint>
+					<waypoint name="XU_Waypoint113" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-5596.4115" y="412.23951" z="-3454.5726" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint112"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint114" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-5081.616" y="412.23951" z="-2939.9949" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint113"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint115" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-5081.616" y="-18.962676" z="1752.83685" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint114"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint116" tags="typenormal sizeLevel1 dynamicmasstraffic closelink " x="-4496.0328" y="-18.962676" z="2339.9091" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint115"/>
+						</links>
+					</waypoint>
+				</waypoints>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part nocollision detail_l  ">
+				<offset>
+					<position x="-0.0013732911" y="-0.00027465822" z="0.0010986327"/>
+				</offset>
+				<parts>
+					<part name="fx_light">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.decoflares"/>
+									<material id="2" ref="effects.lightcone_env"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7866.8955" y="5494.419" z="5074.5555"/>
+							<center x="0.00027465822" y="0.00027465822" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_hulltexture_02b"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_hulltexture_02b"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_hulltexture_02b"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_02b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8100.009" y="4928.6745" z="4797.117"/>
+							<center x="0" y="-0.00027465822" z="-207.590805"/>
+						</size>
+						<sounds>
+							<sound name="XU SoundEmitter01" ref="anim_shipxl_active">
+								<offset/>
+							</sound>
+						</sounds>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection03" tags="part detail_xs nocollision forceoutline ">
+				<offset/>
+				<parts>
+					<part name="detail_xs_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_alphatexture"/>
+									<material id="4" ref="p1effects.p1_lightcone_soft"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7783.911" y="4965.6015" z="5533.8615"/>
+							<center x="-0.0010986327" y="0.00082397475" z="0.00164794905"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part detail_s nocollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="detail_s_main_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_alphatexture"/>
+									<material id="4" ref="p1effects.p1_lightcone_soft"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2731.47795" y="4922.937" z="5758.9605"/>
+							<center x="5184.045" y="-0.00054931635" z="0.00164794905"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part detail_s nocollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="detail_s_main_L">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_alphatexture"/>
+									<material id="4" ref="p1effects.p1_lightcone_soft"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2731.47795" y="4922.937" z="5758.9605"/>
+							<center x="-5184.045" y="0.00027465822" z="-0.0010986327"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part detail_m nocollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="detail_m_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+									<material id="3" ref="generic.generic_p1_alphatexture"/>
+									<material id="4" ref="p1effects.p1_lightcone_soft"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7866.7965" y="4624.857" z="4697.5725"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part detail_m   ">
+				<offset/>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="generic.generic_p1_fx"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7001.5815" y="4895.3385" z="3882.68235"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_component01" tags="buildmodule component ">
+				<offset/>
+			</connection>
+			<connection name="connection_dockarea01" tags="dockarea dock_xl">
+				<offset>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"/>
+				</offset>
+			</connection>
+			<connection name="connection_info01" tags="info ">
+				<offset>
+					<position x="-8032.5" y="513.3447" z="-2988.3906"/>
+				</offset>
+			</connection>
+			<connection name="connection_missionoffer01" tags="mission ">
+				<offset>
+					<position x="-8032.5" y="513.3447" z="-1523.3103"/>
+				</offset>
+			</connection>
+			<connection name="connection_missionoffer02" tags="mission ">
+				<offset>
+					<position x="8046.7425" y="513.3447" z="-1475.05455"/>
+				</offset>
+			</connection>
+			<connection name="connection_missionoffer03" tags="mission ">
+				<offset>
+					<position x="8046.7425" y="513.3447" z="-4254.4683"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionSnap001" tags="snap ">
+				<offset>
+					<position x="8100" y="0" z="0"/>
+					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionSnap002" tags="snap ">
+				<offset>
+					<position x="-8100" y="0" z="0"/>
+					<quaternion qx="-0" qy="0.7071066" qz="-0" qw="-0.7071069"/>
+				</offset>
+			</connection>
+			<connection name="Con_exclusionzone001" tags="exclusionzone ship_xl">
+				<offset>
+					<position x="0" y="0" z="5400"/>
+				</offset>
+			</connection>
+			<connection name="Con_exclusionzone002" tags="exclusionzone ship_xl">
+				<offset>
+					<position x="0" y="0" z="-5400"/>
+					<quaternion qx="-2.384186E-07" qy="-1" qz="1.80001E-14" qw="7.54979E-08"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="storage_usc_xl_mobileminingship_macro" class="storage">
+    <component ref="generic_storage" />
+    <properties>
+      <identification makerrace="terran" />
+      <cargo max="105000" tags="solid liquid" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

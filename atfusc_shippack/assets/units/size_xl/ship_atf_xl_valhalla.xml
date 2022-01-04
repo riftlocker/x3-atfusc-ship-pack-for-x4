@@ -182,6 +182,11 @@
 					<position x="0" y="0" z="0"/>
 				</offset>
 			</connection>
+			<connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
+                <offset>
+                    <position x="0" y="0" z="0"/>
+                </offset>
+            </connection>
 			
 	<connection group="frontturrets" name="con_l_turret_frontturrets_frontupperleft" tags="turret large standard hittable highpower terronly missile">
 		<offset>

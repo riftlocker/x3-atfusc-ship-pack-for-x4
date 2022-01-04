@@ -22,7 +22,7 @@
          <people capacity="3500" />
          <physics mass="11728.3">
             <inertia pitch="1209" yaw="1209" roll="1091" />
-            <drag forward="690" reverse="1559" horizontal="371" vertical="371" pitch="1559" yaw="1559" roll="1559" />
+            <drag forward="690" reverse="3059" horizontal="371" vertical="371" pitch="3059" yaw="3059" roll="3059" />
          </physics>
          <thruster tags="extralarge" />
          <ship type="battleship" />
@@ -32,6 +32,9 @@
          <connection ref="con_buildmodule">
             <macro ref="buildmodule_gen_carrier_macro" connection="object" />
          </connection>
+		 <!--<connection ref="con_buildmodule">
+			<macro ref="buildmodule_atf_valhalla_ships_sm_macro" connection="object" />
+		 </connection>-->
          <connection ref="con_cockpit">
             <macro ref="bridge_ter_xl_01_macro" connection="con_cockpit" />
          </connection>

@@ -31,5 +31,6 @@
 		<entry name="shipstorage_atf_woden_s_macro" 						value="extensions\atfusc_shippack_vanilla\assets\props\surfaceelements\macros\shipstorage_atf_woden_s_macro"/>
 		<entry name="storage_usc_xl_mobileminingship_macro"					value="extensions\atfusc_shippack_vanilla\assets\units\size_xl\macros\storage_usc_xl_mobileminingship_macro"/>
 		<entry name="buildmodule_atf_valhalla_dock_macro" 					value="extensions\atfusc_shippack_vanilla\assets\structures\buildmodule\macros\buildmodule_atf_valhalla_dock_macro"/>
+		<entry name="buildmodule_atf_valhalla_ships_sm_macro" 				value="extensions\atfusc_shippack_vanilla\assets\structures\buildmodule\macros\buildmodule_atf_valhalla_ships_sm_macro"/>
 	</add>
 </diff>

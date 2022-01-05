@@ -142,6 +142,16 @@
 			<quaternion qw="-0.7071068967259818" qx="0.7071066656470943" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>			
+			<connection name="con_buildmodule" tags="buildmodule">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+			<connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
 	<connection name="con_shieldgen_xl_XL-shield-template_1" tags="extralarge shield hittable">
 		<offset>
 			<position x="-1174.165" y="-36.3139" z="-1052.3479"/>

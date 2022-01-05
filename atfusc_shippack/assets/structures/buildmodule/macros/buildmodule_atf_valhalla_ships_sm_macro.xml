@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="buildmodule_atf_valhalla_ships_sm_macro" class="buildmodule">
+    <component ref="generic_buildmodule" />
+    <properties>
+      <hull integrated="1" />
+	  <storage unit="20" />
+      <builder classes="ship_m ship_s ship_xs" usemasstraffic="0" />
+      <equip classes="ship_m ship_s ship_xs" />
+    </properties>
+    <connections>
+      <connection name="buildprocessorconnection_01" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_02" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_03" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_04" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_05" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_06" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_07" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection name="buildprocessorconnection_08" ref="buildprocessorconnection">
+        <macro ref="buildprocessor_gen_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m_01">
+        <macro ref="shipstorage_gen_m_02_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="shipstorage_gen_s_02_macro" connection="object" />
+      </connection>
+      <connection ref="ConnectionFor_room_gen_m_buildmodule_01_macro">
+        <macro ref="room_gen_m_buildmodule_01_macro" connection="position" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

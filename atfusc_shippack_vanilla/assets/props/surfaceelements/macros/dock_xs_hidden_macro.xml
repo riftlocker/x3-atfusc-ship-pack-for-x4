@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="dock_xs_hidden_macro" class="dockingbay">
+    <component ref="dock_xs_hidden" />
+    <properties>
+      <identification unique="0" />
+      <dock external="0" storage="0" allow="1" />
+      <undock rotate="0" speed="30" distance="50" allow="1" />
+      <room walkable="0" />
+      <docksize tags="dock_xs spacesuit" />
+    </properties>
+  </macro>
+</macros>

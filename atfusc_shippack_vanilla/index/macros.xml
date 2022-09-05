@@ -9,6 +9,7 @@
 		<entry name="ship_atf_xl_odin_macro" 								value="extensions\atfusc_shippack_vanilla\assets\units\size_xl\macros\ship_atf_xl_odin_macro" />
 		<entry name="ship_usc_xl_mobileminingship_macro" 					value="extensions\atfusc_shippack_vanilla\assets\units\size_xl\macros\ship_usc_xl_mobileminingship_macro" />
 		<entry name="ship_atf_xl_woden_macro" 								value="extensions\atfusc_shippack_vanilla\assets\units\size_xl\macros\ship_atf_xl_woden_macro" />
+		<entry name="ship_atf_m_verdandi_macro" 							value="extensions\atfusc_shippack_vanilla\assets\units\size_m\macros\ship_atf_m_verdandi_macro" />
 		
 		<entry name="engine_atf_xl_magni_macro" 							value="extensions\atfusc_shippack_vanilla\assets\props\engines\macros\engine_atf_xl_magni_macro"/>
 		<entry name="turret_atf_missilesystem_macro" 						value="extensions\atfusc_shippack_vanilla\assets\props\weaponsystems\guided\macros\turret_atf_missilesystem_macro"/>
@@ -32,5 +33,6 @@
 		<entry name="storage_usc_xl_mobileminingship_macro"					value="extensions\atfusc_shippack_vanilla\assets\units\size_xl\macros\storage_usc_xl_mobileminingship_macro"/>
 		<entry name="buildmodule_atf_valhalla_dock_macro" 					value="extensions\atfusc_shippack_vanilla\assets\structures\buildmodule\macros\buildmodule_atf_valhalla_dock_macro"/>
 		<entry name="buildmodule_atf_valhalla_ships_sm_macro" 				value="extensions\atfusc_shippack_vanilla\assets\structures\buildmodule\macros\buildmodule_atf_valhalla_ships_sm_macro"/>
+		<entry name="dock_xs_hidden_macro" 									value="extensions\atfusc_shippack_vanilla\assets\props\surfaceelements\macros\dock_xs_hidden_macro" />
 	</add>
 </diff>

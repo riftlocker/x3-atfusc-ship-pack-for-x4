@@ -1406,8 +1406,8 @@
          </connection>
          <connection name="con_dockarea_s_01" tags="dockarea">
             <offset>
-               <position x="-1.0021" y="-22.1817" z="3369.5991999999997" />
-               <quaternion qw="-0.999904809108256" qx="-0.013089472283877556" qy="0.004362932070372817" qz="-5.710745203967278e-05" />
+               <position x="-1.0021" y="-22.1817" z="3369.5991999999997"/>
+			   <quaternion qw="-0.9999904624870357" qx="-0.0" qy="0.004367486114961881" qz="-0.0"/>
             </offset>
          </connection>
          <connection name="con_dockarea_s_04" tags="dockarea">
@@ -1437,14 +1437,14 @@
          </connection>
          <connection name="con_dockarea_m_01" tags="dockarea">
             <offset>
-               <position x="215.18320000000003" y="-22.1817" z="3432.4402" />
-               <quaternion qw="-0.7070460829379298" qx="-0.00925540503011146" qy="0.7070463291451183" qz="-0.00925540503011146" />
+               <position x="215.18320000000003" y="-22.1817" z="3432.4402"/>
+			   <quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.7071066656470943" qz="-0.0"/>
             </offset>
          </connection>
          <connection name="con_dockarea_m_02" tags="dockarea">
             <offset>
-               <position x="-216.4933" y="-22.1817" z="3432.4402" />
-               <quaternion qw="-0.7070460829379298" qx="-0.00925540503011146" qy="-0.7070463291451183" qz="0.00925540503011146" />
+               <position x="-216.4933" y="-22.1817" z="3432.4402"/>
+			   <quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.7071066656470943" qz="-0.0"/>
             </offset>
          </connection>
       </connections>

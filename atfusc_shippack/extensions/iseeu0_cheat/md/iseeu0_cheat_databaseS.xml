@@ -7,5 +7,6 @@
   <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_usc_xl_kyoto_macro" />
   <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_usc_xl_mobileminingship_macro" />
   <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_xl_woden_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.ship_atf_m_verdandi_macro" />
 </add>
 </diff>

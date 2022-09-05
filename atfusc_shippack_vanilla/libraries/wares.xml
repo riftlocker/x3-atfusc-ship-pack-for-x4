@@ -169,5 +169,18 @@
          <restriction licence="capitalequipment" />
          <owner faction="terran" />
       </ware>
+	  <ware id="atf_verdandi_ware" name="{444760,2}" description="{444760,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+         <price min="2010633" average="2301190" max="2395939" />
+      <production time="37" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="38" />
+          <ware ware="energycells" amount="276" />
+          <ware ware="metallicmicrolattice" amount="114" />
+        </primary>
+      </production>
+         <component ref="ship_atf_m_verdandi_macro" amount="1" />
+         <restriction licence="generaluseship" />
+         <owner faction="terran" />
+	  </ware>
    </add>
 </diff>

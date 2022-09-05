@@ -30,7 +30,7 @@
       </properties>
       <connections>
          <connection ref="con_buildmodule">
-            <macro ref="buildmodule_gen_carrier_macro" connection="object" />
+            <macro ref="buildmodule_gen_resupplier_macro" connection="object" />
          </connection>
 		 <!--<connection ref="con_buildmodule">
 			<macro ref="buildmodule_atf_valhalla_ships_sm_macro" connection="object" />

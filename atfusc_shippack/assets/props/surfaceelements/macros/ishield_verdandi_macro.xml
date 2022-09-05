@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_verdandi_macro" class="shieldgenerator">
+    <component ref="ishield_verdandi" />
+    <properties>
+      <identification name="{444760,4}" />
+      <recharge max="20550" rate="260" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

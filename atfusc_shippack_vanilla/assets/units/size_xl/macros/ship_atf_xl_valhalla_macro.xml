@@ -30,7 +30,7 @@
       </properties>
       <connections>
          <connection ref="con_buildmodule">
-            <macro ref="buildmodule_gen_carrier_macro" connection="object" />
+            <macro ref="buildmodule_gen_resupplier_macro" connection="object" />
          </connection>
          <connection ref="con_cockpit">
             <macro ref="bridge_ter_xl_01_macro" connection="con_cockpit" />

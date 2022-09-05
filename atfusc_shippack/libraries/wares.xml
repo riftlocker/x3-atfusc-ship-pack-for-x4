@@ -204,5 +204,23 @@
          <component ref="ishield_woden_macro" amount="1" />
          <use threshold="0" />
       </ware>
+	  <ware id="atf_verdandi_ware" name="{444760,2}" description="{444760,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+         <price min="2010633" average="2301190" max="2395939" />
+      <production time="37" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="38" />
+          <ware ware="energycells" amount="276" />
+          <ware ware="metallicmicrolattice" amount="114" />
+        </primary>
+      </production>
+         <component ref="ship_atf_m_verdandi_macro" amount="1" />
+         <restriction licence="generaluseship" />
+         <owner faction="terran" />
+	  </ware>
+	  <ware id="ishield_verdandi" name="{444760,4}" description="{444760,4}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+         <price min="1" average="1" max="1" />
+         <component ref="ishield_verdandi_macro" amount="1" />
+         <use threshold="0" />
+      </ware>
    </add>
 </diff>

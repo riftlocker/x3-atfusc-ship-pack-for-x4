@@ -279,25 +279,25 @@
 	</connection>
 	<connection name="con_m_weapon_S-shield-template_gatling004" tags="weapon medium standard highpower platformcollision terronly">
 		<offset>
-			<position x="142.67350000000002" y="-75.9183" z="230.04540000000003"/>
+			<position x="142.67350000000002" y="-77.898" z="230.04540000000003"/>
 			<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 		</offset>
 	</connection>
 	<connection name="con_m_weapon_S-shield-template_gatling005" tags="weapon medium standard highpower platformcollision terronly">
 		<offset>
-			<position x="135.6186" y="-75.9183" z="230.04540000000003"/>
+			<position x="135.6186" y="-77.898" z="230.04540000000003"/>
 			<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 		</offset>
 	</connection>
 	<connection name="con_m_weapon_S-shield-template_gatling006" tags="weapon medium standard highpower platformcollision terronly">
 		<offset>
-			<position x="135.6161" y="-72.2573" z="230.04540000000003"/>
+			<position x="135.6161" y="-74.23819999999999" z="230.04540000000003"/>
 			<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 		</offset>
 	</connection>
 	<connection name="con_m_weapon_S-shield-template_gatling007" tags="weapon medium standard highpower platformcollision terronly">
 		<offset>
-			<position x="142.6761" y="-72.2573" z="230.04540000000003"/>
+			<position x="142.6761" y="-74.23819999999999" z="230.04540000000003"/>
 			<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 		</offset>
 	</connection>
